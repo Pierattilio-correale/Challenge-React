@@ -48,3 +48,40 @@
   height: 300px;
 
 }
+.BGorange{
+background-color: orange;
+}
+.BGred{
+  background-color: red;
+  margin-bottom: 10px;
+}
+.newBG{
+  background-color: aqua;
+}
+.newBG2{
+  background-color: black;
+  color: white;
+}
+
+
+@keyframes bodyColor {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: aqua;
+  }
+}
+
+body {
+  animation: bodyColor infinite 20s linear;
+}

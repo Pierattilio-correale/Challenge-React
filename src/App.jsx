@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-      <ButtonComponent textbutton="Bottone di prova numero 2" />
+      <ButtonComponent
+        textbutton="Bottone di prova numero 2"
+        idButton="ciao"
+        classbutton="BGorange"
+      />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -20,7 +24,11 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <ButtonComponent textbutton="Bottone di prova" />
+      <ButtonComponent
+        textbutton="Bottone di prova"
+        classbutton="BGred"
+        idButton="ciaomio"
+      />
       <div>
         <ImgComponent
           textalt="Foto Epicode"
